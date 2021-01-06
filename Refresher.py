@@ -13,7 +13,7 @@ try:
 except:
     wrong = True
     print("Wrong input! Please enter a number")
-    while wrong == False:
+    while wrong == True:
         user()
 
 # I have also set a limit so that if user inputs large number it won't keep refreshing (you can change it)
@@ -32,13 +32,13 @@ pyautogui.keyUp('d')
 
 for v in range(user_input):
 
-    # Shift + F10 - Menue
+    # Shift + F10 - Menu
     pyautogui.keyDown('shift')
     pyautogui.keyDown('f10')
     pyautogui.keyUp('f10')
     pyautogui.keyUp('shift')
     
-    # To reach refresh button and press enter
+    # To reach refresh button and press enter -
     # Down arrow three times
     pyautogui.press('down', presses=3)
 
