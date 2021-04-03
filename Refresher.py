@@ -1,3 +1,5 @@
+# Precautions - Make sure no file is selected on the dextop, Don't click anywhere while the pc is refreshing
+# In case a file is selected after the program ends press shift
 import pyautogui - #pip install pyautogui
 # There is a default value of user_input to use in function# I put the refreshing part in a for loop of the range of user input(to Refresh as many times user said)
 user_input = 0
